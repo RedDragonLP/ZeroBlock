@@ -1,0 +1,77 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 21.07.16 15:19
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at net.minecraft.client.gui.Gui.drawString(Gui.java:132)
+	at com.RedDragonLP.ZeroBlock_client.hooks.GuiIngameHook.renderClientName(GuiIngameHook.java:25)
+	at com.RedDragonLP.ZeroBlock_client.hooks.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:18)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1156)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1165)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:450)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.client.gui.Gui.drawString(Gui.java:132)
+	at com.RedDragonLP.ZeroBlock_client.hooks.GuiIngameHook.renderClientName(GuiIngameHook.java:25)
+	at com.RedDragonLP.ZeroBlock_client.hooks.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:18)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['RedDragonLP'/193, l='MpServer', x=580,65, y=68,00, z=173,10]]
+	Chunk stats: MultiplayerChunkCache: 0, 0
+	Level seed: 0
+	Level generator: ID 02 - largeBiomes, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (584,64,166), Chunk: (at 8,4,6 in 36,10; contains blocks 576,0,160 to 591,255,175), Region: (1,0; contains chunks 32,0 to 63,31, blocks 512,0,0 to 1023,255,511)
+	Level time: 13474 game time, 12854 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 1 total; [EntityPlayerSP['RedDragonLP'/193, l='MpServer', x=580,65, y=68,00, z=173,10]]
+	Retry entities: 0 total; []
+	Server brand: vanilla
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:448)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2925)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:479)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_92, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 801854232 bytes (764 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 99
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: AMD Radeon R7 200 Series GL version 4.5.13440 Compatibility Profile Context 16.200.1035.0, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x AMD A10-7800 Radeon R7, 12 Compute Cores 4C+8G 
