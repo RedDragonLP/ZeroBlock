@@ -1,0 +1,49 @@
+1460405148395	Rename local variable 'p_71012_1_'
+1460486622879	Rename package 'me.RedDragonLetsPlay.client'
+1460486639868	Rename package 'me.RedDragonLetsPlay.ZeroBlocks'
+1460486652717	Rename package 'me.RedDragonLetsPlay.client'
+1460489168170	Rename field 'toggled'
+1460489202743	Rename method 'setToggled'
+1460489315623	Rename method 'isToggled'
+1460489384989	Rename field 'state'
+1460489692261	Rename type 'GUIIngameHook'
+1460490912829	Rename method 'toggle'
+1460491707346	Delete element
+1460491714006	Delete element
+1460492527093	Rename type 'ModuleFullbright'
+1460492815076	Rename field 'keyCode'
+1460492828930	Rename method 'getKeyCode'
+1460492840121	Rename method 'setKeyCode'
+1460494685634	Move compilation unit
+1460494689268	Move compilation unit
+1460570610942	Rename package 'me.RedDragonLetsPlay.ZeroBlocks'
+1460570669997	Move compilation unit
+1460570710069	Rename package 'com.RedDragonLetsPlay.ZeroBlocks.modules'
+1460570731874	Move compilation units
+1460570754754	Rename package 'com.RedDragonLetsPlay.ZeroBlocks.commands'
+1460570766360	Move compilation unit
+1460571103680	Move compilation units
+1460571144629	Copy compilation unit
+1460571166804	Rename type 'ExampleGuiManager'
+1460579497744	Rename type 'TracerMobs'
+1460579507550	Rename type 'TracerPlayer'
+1460579515983	Rename type 'ESPPlayers'
+1460579523727	Rename type 'ESPMobs'
+1460582358902	Delete element
+1460582659559	Delete element
+1460584381576	Delete element
+1460584387228	Delete element
+1460584393110	Delete element
+1460631802981	Copy compilation units
+1460631827331	Rename type 'SimpleTheme'
+1460631851498	Rename package 'com.RedDragonLetsPlay.ZeroBlocks.theme.themes.ZeroBlocksTheme'
+1460631883321	Rename type 'SimpleButtonUI'
+1460631893195	Rename type 'SimpleSliderUI'
+1460631907872	Rename type 'SimpleProgressBarUI'
+1460631915997	Rename type 'SimplePanelUI'
+1460631925936	Rename type 'SimpleLabelUI'
+1460631936031	Rename type 'SimpleFrameUI'
+1460631944414	Rename type 'SimpleComboBoxUI'
+1460631950651	Rename type 'SimpleCheckButtonUI'
+1460632131920	Rename local variable 'testFrame'
+1460638831638	Rename type 'ModuleNoFire'
